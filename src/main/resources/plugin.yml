@@ -1,0 +1,45 @@
+name: PluginOrix
+version: '${project.version}'
+main: me.thomas.pluginorix.Main
+authors: [ thomas ]
+description: Plugin pour le serveur Orix
+website: https://discord.gg/PQY9DwS7xe
+commands:
+  site:
+    description: commande pour acceder au site
+  discord:
+    description: commande pour acceder au discord
+  zinga:
+    description: donne l'épée de zinga
+    permission: zinga.orix
+  dondenne:
+    description: donne l'épée de dondenne
+    permission: dondenne.orix
+  hammer:
+    description: Hammer d'haykox
+    permission: hammer.orix
+  event:
+    description: Gui pour choisir ou se teleporté
+  hammerp:
+    description: hammer d'elpierooo
+    permission: hammerp.orix
+  mz:
+    description: donne un block D'Mz
+    permission: mz.orix
+  leveltree:
+    description: donne l'épée du niveau du passe de combat
+    permission: levelone.orix
+  warp:
+    description: accede au menu des warps
+  minage:
+    description: teleporte au monde minage
+    permission: minage.orix
+  resetminage:
+    description: reload du minage
+    permission: resetminage.orix
+  minagetp:
+    description: tp tout les joueurs du monde minage au depart de celui ci
+    permission: minagetp.orix
+  pc:
+    description: accedé au passe de combat
+
